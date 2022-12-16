@@ -1,0 +1,61 @@
+#-----------------------------------------------------------
+# Vivado v2021.1 (64-bit)
+# SW Build 3247384 on Thu Jun 10 19:36:33 MDT 2021
+# IP Build 3246043 on Fri Jun 11 00:30:35 MDT 2021
+# Start of session at: Mon Nov 21 15:00:50 2022
+# Process ID: 19684
+# Current directory: D:/Sergio/UNIVERSIDAD/4 - Cuarto/Trabajos/Trabajo_VHDL
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent28612 D:\Sergio\UNIVERSIDAD\4 - Cuarto\Trabajos\Trabajo_VHDL\Trabajo_VHDL.xpr
+# Log file: D:/Sergio/UNIVERSIDAD/4 - Cuarto/Trabajos/Trabajo_VHDL/vivado.log
+# Journal file: D:/Sergio/UNIVERSIDAD/4 - Cuarto/Trabajos/Trabajo_VHDL\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/Sergio/UNIVERSIDAD/4 - Cuarto/Trabajos/Trabajo_VHDL/Trabajo_VHDL.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source tb_edgedtctr.tcl
+close_sim
+set_property top tb_top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_top.tcl
+close_sim
+set_property top tb_edgedtctr [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+source tb_edgedtctr.tcl
+set_property top tb_top [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+source tb_top.tcl
+close_sim
+launch_simulation
+source tb_top.tcl
+close_sim
+close [ open {D:/Sergio/UNIVERSIDAD/4 - Cuarto/Trabajos/Trabajo_VHDL/Trabajo_VHDL.srcs/sources_1/new/ESTADOS.vhd} w ]
+add_files {{D:/Sergio/UNIVERSIDAD/4 - Cuarto/Trabajos/Trabajo_VHDL/Trabajo_VHDL.srcs/sources_1/new/ESTADOS.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+source tb_top.tcl
+close_sim
+launch_simulation
+source tb_top.tcl
+close_sim
+close [ open {D:/Sergio/UNIVERSIDAD/4 - Cuarto/Trabajos/Trabajo_VHDL/Trabajo_VHDL.srcs/sources_1/new/TEMPORIZADOR.vhd} w ]
+add_files {{D:/Sergio/UNIVERSIDAD/4 - Cuarto/Trabajos/Trabajo_VHDL/Trabajo_VHDL.srcs/sources_1/new/TEMPORIZADOR.vhd}}
+update_compile_order -fileset sources_1
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation

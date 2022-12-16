@@ -1,0 +1,16 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../Trabajo_VHDL.srcs/sources_1/new/DECODER.vhd" \
+"../../../../Trabajo_VHDL.srcs/sources_1/new/EDGEDTCTR.vhd" \
+"../../../../Trabajo_VHDL.srcs/sources_1/new/ESTADOS.vhd" \
+"../../../../Trabajo_VHDL.srcs/sources_1/new/SYNCHRNZR.vhd" \
+"../../../../Trabajo_VHDL.srcs/sources_1/new/TEMPORIZADOR.vhd" \
+"../../../../Trabajo_VHDL.srcs/sources_1/new/TOP.vhd" \
+"../../../../Trabajo_VHDL.srcs/sim_1/new/tb_top.vhd" \
+"../../../../Trabajo_VHDL.srcs/sim_1/new/tb_edgedtctr.vhd" \
+"../../../../Trabajo_VHDL.srcs/sim_1/new/tb_synchrnzr.vhd" \
+"../../../../Trabajo_VHDL.srcs/sim_1/new/tb_decoder.vhd" \
+"../../../../Trabajo_VHDL.srcs/sim_1/new/tb_tempo.vhd" \
+
+# Do not sort compile order
+nosort
